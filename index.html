@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+   
+
+       
+        <!-- navbar -->
+        <nav class="navbar navbar-light bg-light ">
+            <a class="navbar-brand"><b>Covid-19<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXlb9M8TbLLAYcCLXK4i88DGjgalGxwn4Fvg&usqp=CAU"height="100px"></b></a><h1 class="text-center">Search The State Code Get The Info</h1>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2"type="text" name="search" id="code" placeholder="Search...">
+              <button class="btn btn-outline-success my-2 my-sm-0"type="button" id="button" onclick="state()" name="input">Search </button>
+            </form>
+          </nav>
+    
+    
+    
+        <!-- Table -->
+        <section id="table">
+                <div class="container">
+                   <h1  class="text-center h1">State Covid-19 Details</h1>
+                   <img src="https://thumbs.dreamstime.com/b/covid-red-ink-stamp-vector-illustration-word-abbreviation-coronavirus-disease-174764696.jpg"height="200px">
+                   <img src="https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/advanced_page/featured_media/Coronavirus_Covid-19.png?vCjLR.RArC5_6o55iUgPMiFGiHw4P2ne"height="200px">
+                   <img src="https://thumbs.dreamstime.com/b/covid-red-ink-stamp-vector-illustration-word-abbreviation-coronavirus-disease-174764696.jpg"height="200px"> 
+                   <img src="https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/advanced_page/featured_media/Coronavirus_Covid-19.png?vCjLR.RArC5_6o55iUgPMiFGiHw4P2ne"height="200px">
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                            <th colspan="2" id="thed" class="text-center"></th>
+                            </tr>
+                            <tr>
+                                <th>Details</th>
+                                <th>total</th>
+                            </tr>
+                        </thead>
+                            <tbody class="">
+                                <tr>
+                                    <th>Confirmed</th>
+                                    <td id="confi"></td>
+                                </tr>
+                                <tr>
+                                    <th>Deceased</th>
+                                    <td id="dece"></td>
+                                </tr>
+                                <tr>
+                                    <th>Recovered</th>
+                                    <td id="reco"></td>
+                                </tr>
+                                <tr>
+                                    <th>Tested</th>
+                                    <td id="tes"></td>
+                                </tr>
+                                <tr>
+                                    <th>Vaccinated1</th>
+                                    <td id="vac1"></td>
+                                </tr>
+                                <tr>
+                                    <th>Vaccinated2</th>
+                                    <td id="vac2"></td>
+                                </tr>
+                            </tbody>
+                        
+                    </table>
+                </div>
+        </section>
+
+        
+   
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+
+</body>
+</html>
